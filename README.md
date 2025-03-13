@@ -14,16 +14,24 @@ To get started with the Network Mapping CLI, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/Ezek1elz/network-mapping-cli.git cd network-mapping-cli
+   ```
+   git clone <repository-url>
+   cd network-mapping-cli
+   ```
 
 2. Install the required dependencies:
 
-pip install -r
+   ```
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 To run the CLI application, execute the following command:
 
+```
+python src/main.py
+```
 
 ### Commands
 
