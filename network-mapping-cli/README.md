@@ -1,16 +1,17 @@
-# Network Mapping CLI
+# Network Mapping CLI and GUI
 
-This project is a command-line interface (CLI) application designed to track unknown IP addresses discovered during network mapping. It provides a simple way to manage and monitor IP addresses that may be of interest during network exploration.
+This project is a command-line interface (CLI) and graphical user interface (GUI) application designed to track unknown IP addresses discovered during network mapping. It provides a simple way to manage and monitor IP addresses that may be of interest during network exploration.
 
 ## Features
 
 - Track unknown IP addresses
 - Add and remove IP addresses from the tracking list
 - Display currently tracked IP addresses
+- GUI for managing IP addresses
 
 ## Installation
 
-To get started with the Network Mapping CLI, follow these steps:
+To get started with the Network Mapping CLI and GUI, follow these steps:
 
 1. Clone the repository:
 
@@ -27,6 +28,8 @@ To get started with the Network Mapping CLI, follow these steps:
 
 ## Usage
 
+### CLI
+
 To run the CLI application, execute the following command:
 
 ```
@@ -38,6 +41,18 @@ python src/main.py
 - **add <ip_address>**: Add an unknown IP address to the tracking list.
 - **remove <ip_address>**: Remove an IP address from the tracking list.
 - **list**: Display all currently tracked IP addresses.
+
+### GUI
+
+To run the GUI application, execute the following command:
+
+```
+python gui.py
+```
+
+## Persistent Storage
+
+The application uses a JSON file (`tracked_ips.json`) to store the tracked IP addresses persistently.
 
 ## Contributing
 
